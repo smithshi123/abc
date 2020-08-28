@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* 头部以及底部为公共区域 */
+.newsmain,.newsindex .newsmain,.mar980,.w980{
+    width:980px;
+    margin:0 auto;
+}
+.fl {
+    display: inline;
+}
+.fr {
+    display: inline;
+}
+.pr {
+    position: relative;
+}
+.pa {
+    position: absolute;
+}
+.none {
+    display: none;
+}
+.bc {
+    margin-left: auto;
+    margin-right: auto;
+}
+.fb {
+    font-weight: bold;
+}
+.cb {
+    clear: both;
+}
+/* header */
+.newsindex {
+    background: #eaeaea;
+    height: 28px;
+}
+.newsindex .newsmain {
+    line-height: 28px;
+}
+.newsmain .newstopNav {
+    text-align: right;
+}
+
+
+.topNav a {
+    color: #5d5d5d;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+.pr5 {
+    padding-right: 5px;
+}
+
+/*  */
+#btn_reg {
+    background-position: 50px 4px;
+}
+/*  */
+.mt10 {
+    margin-top: 10px;
+}
+.clearfix {
+    zoom: 1;
+}
+.logo {
+    margin-top: 1px;
+}
+.pt10 {
+    padding-top: 26px;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.headerMiddleRight li.goodsCar {
+    height: 40px;
+    line-height: 38px;
+    padding-left: 65px;
+    background: url(https://mall.lqxshop.com/theme/default/images/goodsCar.gif) center center no-repeat;
+}
+.mr10 {
+    margin-right: 5px;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.headerBottom {
+    height: 45px;
+    width: 980px;
+    margin: auto;
+    top: 7px;
+    z-index: 33;
+    background-color: none;
+    position: relative;
+}
+.mainNav {
+    height: 35px;
+    background: url(https://mall.lqxshop.com/theme/default/images/mainNav.png) no-repeat;
+    z-index: 2;
+}
+.mainNav li {
+    display: inline;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+}
+.mainNav li a.navCurrent, .mainNav li a:hover {
+    color: #ffaf7b;
+}
+.mainNav li a {
+    display: inline;
+    float: left;
+    font-family: 宋体, Arial, Helvetica;
+    width: 60px;
+    height: 35px;
+    padding: 0 13px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.mainNav .subContent {
+    display: none;
+    top: 35px;
+    border: 1px solid #025855;
+    border-top: 0;
+    background: #FFF;
+    padding: 13px 0 10px 10px;
+    left: 0;
+}
+.subContent dl a {
+    color: #656565;
+    display: inline;
+    float: none;
+    padding: 0;
+    font-weight: normal;
+    font-size: 12px;
+    background: none;
+}
+
+/* 面部护理 */
+.mainNav .subContentLeft {
+    background-color: #fff;
+}
+.mainNav .subContentLeft, .mainNav .subContentRight {
+    width: 180px;
+    line-height: 180%;
+    text-align: left;
+}
+.pl15 {
+    padding-left: 15px;
+}
+.mainNav .subContentLeft dd {
+    width: 90px;
+    display: inline;
+    float: left;
+}
+/* nav右侧搜索框 */
+div.searchBox .btnSearch {
+    background: url(https://mall.lqxshop.com/theme/default/images/zz_19.png) right center no-repeat;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+div.searchBox input {
+    border: 0;
+    outline: 0;
+    background: none;
+    color: #999;
+}
+
+div.searchBox {
+    width: 178px;
+    top: -35px;
+    right: 0;
+    padding: 5px 0;
+    line-height: 100%;
+    z-index: 100;
+    border: 2px solid #5d9f9d;
+    border-radius: 6px;
+}
+div.searchBox .search {
+    width: 130px;
+    height: 21px;
+    line-height: 22px;
+    padding-left: 15px;
+}
+.ml5 {
+    margin-left: 5px;
+}
+.searchKeyWords {
+    top: 30px;
+    right: -2px;
+    width: 177px;
+    border: 1px solid #5d9f9d;
+    background-color: #FFF;
+    padding-bottom: 5px;
+}
+.searchKeyWords li {
+    padding: 3px 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.searchKeyWords li a {
+    padding: 3px 19px;
+    display: block;
+    color: #656565;
+}
+
+.headerBg2 {
+    height: 35px;
+    width: 40%;
+    top: 0px;
+    left: 0;
+}
+
+
+/* 公告 */
+.newsBox {
+    width: 252px;
+}
+.newsindexgg {
+    vertical-align: middle;
+    height: 30px;
+    background: url(https://mall.lqxshop.com/theme/default/images/sy_35.jpg) no-repeat;
+}
+.newsindexgg b.allmore {
+    top: 8px;
+    right: 10px;
+    font-style: normal;
+}
+.allmore a {
+    color: #005754;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+.newsBox dl {
+    height: 114px;
+    padding: 8px 10px 5px;
+    overflow: hidden;
+    border: 2px solid #5d9f9d;
+}
+.gonggaoshow {
+    line-height: 22px;
+}
+.gonggaoshow dd {
+    height: 22px;
+}
+.gonggaoshow dd span.numborbg {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-color: #025855;
+    color: #FFF;
+}
+.gonggaoshow dd span {
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    margin-right: 5px;
+}
+.gonggaoshow dd a {
+    color: #333;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+.newsRed {
+    color: #FF0000;
+}
+/* 图片 */
+.newsBox .ad1 {
+    margin-top: 25px;
+}
+
+/* 右边内容 */
+.hotRecommend {
+    width: 722px;
+    height: 320px;
+    overflow: hidden;
+}
+.hotRecommend .boxTitle {
+    height: 30px;
+    background: url(https://mall.lqxshop.com/theme/default/images/rm_35.gif) repeat-x;
+}
+.hotRecommend .boxTitle h2 {
+    height: 26px;
+    background: url(https://mall.lqxshop.com/theme/default/images/hotRecommend.gif) no-repeat;
+}
+.boxTitle h2 {
+    width: 100px;
+}
+
+.th {
+    text-indent: -999em;
+}
+.hotRecommend dd dl {
+    padding: 5px 0 10px 0;
+    margin: 0px;
+    border: 2px solid #5d9f9d;
+}
+
+
+
+
+.hotRecommend dd dl dd:first-child {
+    border-left: none;
+}
+.hotRecommend dd dl dd.borl {
+    margin-left: -1px;
+    overflow: hidden;
+}
+
+.hotRecommend .goodsList {
+    width: 202px;
+    height: 255px;
+    text-align: center;
+}
+.goodsBox .goodsList {
+
+    margin-right: 12px;
+    margin-top: 8px;
+
+}
+.hotRecommend dd dl dd {
+    padding-left: 19px;
+    padding-right: 6px;
+}
+
+
+.hotRecommend .goodsList h3 {
+    height: 36px;
+}
+.hotRecommend .goodsList h3 a {
+    color: #005754;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+.colorRed, .colorRed a {
+    color: #f9700f;
+}
+.fw {
+    font-family: 微软雅黑,Tahoma,Arial,Helvetica;
+}
+
+
+
+
+/* footer */
+.footsite {
+    width: 960px;
+    height: 150px;
+    background-color: #F1F1F1;
+    display: block;
+    padding: 10px;
+}
+.footer .copyright {
+    display: block;
+}
+.mt5 {
+    margin-top: 5px;
+}
+.tc {
+    text-align: center;
+}
+.copyright a {
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+
+.bottom_jinhui {
+    background-image: url(https://pic.lqxshop.com/sources/ico_jinhui.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin: 5px auto 0;
+    padding-left: 26px;
+    width: 180px;
+}
+.bottom_jinhui a {
+    color: #999999;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 宋体, Arial, Helvetica;
+}

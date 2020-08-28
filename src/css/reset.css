@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* 重置样式 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,th,td{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:16px;
+    font-family:"微软雅黑";
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:16px;
+    font-weight:normal;
+}
+ul,ol,li{
+    list-style:none;
+}
+em,i{
+    font-style:normal;
+}
+a,u{
+    text-decoration: none;
+}
+b,strong{
+    font-weight:normal;
+}
+img,fieldset{
+    border:none;
+}
+img{
+    display:block;
+}
+input{
+    outline:none;
+}
+textarea{
+    /* 禁止用户拖拽大小 */
+    resize:none;
+}
+html, body {
+    color: #5d5d5d;
+    font: 12px/150% '宋体', Arial, Helvetica;
+    height: 100%;
+}
+input.input-01, input.input-02, input.input-03, select, textarea {
+    color: #777;
+    border: 1px solid #c4c4c4;
+}
+
+/* 封装一些类名 */
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.border_none{
+    border:none!important;
+}
+.bg_none{
+    background:none!important;
+}
+.text_ellipsis{
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.clear_fix:after{
+    content:" ";
+    clear:both;
+    height:0;
+    display:block;
+    overflow:hidden;
+    visibility: hidden;
+}
+.clear_fix{
+    zoom:1;
+}
+.headerMiddleRight li.goodsCar a {
+    color: #5d5d5d;
+    font-size: 15px;
+}
+
+.headerMiddleRight li.goodsCar strong {
+    color: #ff9245;
+    font-size: 16px;
+}
+
+.fb {
+    font-weight: bold;
+}
+
+/*nav */
+.headerBottom {
+    height: 45px;
+    width: 980px;
+    margin: auto;
+    top: 7px;
+    z-index: 33;
+    position: relative;
+}
+
+.headerBottom .cat {
+    background: url(https://mall.lqxshop.com/theme/default/images/mao_14.png) no-repeat;
+    width: 39px;
+    height: 54px;
+    position: absolute;
+    top: -15px;
+    right: 160px;
+    z-index: 99;
+}

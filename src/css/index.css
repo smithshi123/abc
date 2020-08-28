@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* 版心公共样式 */
+.footer{
+    width:980px;
+    margin:0 auto;
+}
+.pt5 {
+    padding-top: 5px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+.clearfix {
+    zoom: 1;
+}
+.bc {
+    margin-left: auto;
+    margin-right: auto;
+}
+.lh200 {
+    line-height: 200%;
+}
+
+/*  */
+
+/* 轮播 */
+.swiper-container{
+    width: 976px;
+    height: 480px;
+    /* margin:240px auto 263px; */
+    margin:0px auto;
+}
+
+
+/* dl */
+.footer dl {
+    width: 155px;
+    height: 135px;
+}
+.indexfoot0,.indexfoot1,.indexfoot2,.indexfoot3 {
+    padding-right: 15px;
+    border-right: 1px solid #F1E1E1;
+}
+.indexfoot4 {
+    padding-right: 15px;
+}
+.pt15 {
+    padding-top: 15px;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.fl {
+    display: inline;
+}
+.fb {
+    font-weight: bold;
+}
+.f14 {
+    font-size: 14px;
+}
+/* dl0 */
+.footer dt.newbie-0 {
+    background-position: 29px 2px;
+    padding-left: 14px;
+}
+.footer dl dt {
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+}
+.iconfooter {
+    background: url(https://mall.lqxshop.com/theme/default/images/index_icon.png) no-repeat;
+}
+
+/* dd */
+.footer dl dd {
+    margin-left: 10px;
+}
+.indexfoot0 a,.indexfoot1 a,.indexfoot2 a,.indexfoot3 a,.indexfoot4 a{
+    color: #666666;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+
+/* dl1 */
+.footer dt.newbie-1 {
+    background-position: 29px -20px;
+}
+.footer dt {
+    padding-left: 18px;
+}
+
+/* dl2 */
+.footer dt.newbie-2 {
+    background-position: 29px -42px;
+}
+
+/* dl3 */
+.footer dt.newbie-3 {
+    background-position: 29px -64px;
+}
+
+/* dl4 */
+.indexfoot4 {
+    padding-right: 15px;
+}
+.footer dt.newbie-4 {
+    background-position: 29px -86px;
+}
+
+
+/* 侧边栏 */
+.slideBar{
+    display:none;
+}
+a.ctUs {
+    background-image: url(https://pic.lqxshop.com/sources/kf/online_cat.png);
+    bottom: 175px;
+    cursor: pointer;
+    display: block;
+    height: 316px;
+    position: fixed;
+    right: 10px;
+    width: 150px;
+    z-index: 21312312;
+
+}
+.slideBar button{
+    width: 150px;
+    height: 50px;
+    position: fixed;
+    background-color: #ccc;
+    opacity:0.2;
+    right:10px;
+    bottom: 132px;
+    z-index: 21312312;
+    font-size: 30px;
+}

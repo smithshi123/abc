@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* 公共样式 */
+.mt15 {
+    margin-top: 15px;
+}
+/* .mr5 {
+    margin-right: 5px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt5 {
+    margin-top: 5px;
+}
+.tc {
+    text-align: center;
+} */
+.mb10 {
+    margin-bottom: 10px;
+}
+a {
+    color: #005754;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.tc {
+    text-align: center;
+}
+.tr {
+    text-align: right;
+}
+.fw {
+    font-family: 微软雅黑,Tahoma,Arial,Helvetica;
+}
+.mr10 {
+    margin-right: 5px;
+}
+img{
+    display:inline-block;
+}
+.tableStyle th, .tableStyle td, .btnReduction, .btnAdd, .goodsNum, .tableStyle tbody img {
+    border: 1px solid #dedede;
+}
+em, strong, th, b {
+    font-style: normal;
+    font-weight: normal;
+}
+h2 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.in_b {
+    display: inline-block;
+}
+.pl20 {
+    padding-left: 20px;
+}
+/* table */
+.tableStyle {
+    border-collapse: collapse;
+    border: 1px solid #dedede;
+}
+.tableStyle th, .tableStyle td {
+    padding: 5px 2px;
+}
+/* table表头 */
+.tableStyle thead th {
+    background: url(https://mall.lqxshop.com/theme/default/images/goodBoxTitle.gif) 0 -1px repeat-x;
+    text-align: center;
+}
+/* tbody */
+.tableStyle tbody h2 {
+    width: 250px;
+    vertical-align: middle;
+}
+/* -和删除 */
+.btnReduction, .btnAdd {
+    height: 18px;
+    padding: 0 3px;
+}
+/* 商品数量输入框 */
+.goodsNum {
+    height: 18px;
+    width: 46px;
+    top: 2px;
+}
+/* 商品图片 */
+.tableStyle tbody img {
+    vertical-align: middle;
+}
+/* 清空购物车*/
+.pl15 {
+    padding-left: 15px;
+}
+.icon {
+    background: url(https://mall.lqxshop.com/theme/default/images/icon.gif) no-repeat;
+}
+.clearCar {
+    background-position: 0 -111px;
+    display: block;
+    height: 18px;
+    overflow: hidden;
+}
+/* 促销活动 */
+.cartTitle {
+    color: #d43e40;
+    height: 34px;
+    line-height: 30px;
+    background: url(https://mall.lqxshop.com/theme/default/images/listTitle.gif) no-repeat;
+}
+/* 赠品专区 */
+.pointListMainContent {
+    margin-right: -21px;
+}

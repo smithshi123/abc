@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* 头部以及底部为公共区域 */
+a {
+    color: #005754;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+/* 左边大盒子 */
+.detailsLeft {
+    position: relative;
+    width: 452px;
+}
+/* 视频盒子 */
+.video_area {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 450px;
+    height: 450px;
+    z-index: 11;
+    background-color: #000000;
+    text-align: center;
+}
+/* 左边图片顶部盒子 */
+.goodsMainPic {
+    border: 1px solid #dad7d7;
+    font-size: 0;
+}
+a:hover {
+    color: #005754;
+    text-decoration: underline;
+}
+/* 左边图片底部盒子 */
+.goodsScrollPic1 li {
+    display: inline;
+    float: left;
+    margin: 0 2px;
+    height: 88px;
+    overflow: hidden;
+
+}
+/* 左边图片底部盒子左右箭头 */
+.prev-disabled, .next-disabled {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.btnPrevious a, .btnNext a {
+    display: block;
+    height: 88px;
+    width: 36px;
+    background: url(https://mall.lqxshop.com/theme/default/images/btn_scrollList.gif) no-repeat;
+}
+.btnPrevious a {
+    background-position: 0 center;
+}
+.btnPrevious a:hover {
+    background-position: -72px center;
+}
+.btnNext a {
+    background-position: -36px center;
+}
+/* 左边图片底部盒子中间的图片 */
+
+.picList li a {
+    display: block;
+    border: 1px solid #fff;
+    font-size: 0;
+}
+.picList li img {
+    border: 1px solid #dad7d7;
+}
+.picList li a:hover, .picList li.current a {
+    border: 2px solid #e78e03;
+}
+.picList li a:hover img, .picList li.current img {
+    border: 0;
+}
+
+
+/* 移入左边大图时的小遮罩 */
+.jqZoomPup{
+    width: 180px;
+    height:157.5px;
+    border-width:1px;
+    visibility: visible;
+    position: absolute;
+    top:0;
+    left:0;
+    display:none;
+    background-color:#CC6600;
+    opacity: 0.1;
+}
+
+/* 放大镜右边大图容器 */
+.jqZoomWindow{
+    position: absolute;
+    width: 320px;
+    height:280px;
+    z-index:10000;
+    overflow: hidden;
+    left:460px;
+    top:2px;
+    display:none;
+    
+}
+/* 放大镜右边大图容器图片 */
+.jqZoomWindow img{
+    position: absolute; 
+    /* display: block;  */
+    left: 0px; 
+    top: 0px;
+}
+
+
+
+
+
+
+/* 右边盒子 */
+.detailsRight {
+    width: 492px;
+}
+/* goodsPrice */
+.yahei {
+    font-family: 'Microsoft Yahei';
+    font-size: 15px;
+}
+.colorBc {
+    color: #005754;
+}
+.goodsPrice p {
+    font-size: 12px;
+    font-weight: normal;
+}
+.goodsPrice dd {
+    padding-bottom: 5px;
+}
+.officialPrice {
+    position: relative;
+}
+.f16 {
+    font-size: 16px;
+}
+.colorRed, .colorRed a {
+    color: #f9700f;
+}
+.integralShop {
+    position: absolute;
+    right: 100px;
+}
+.shoptradeIcon {
+    position: absolute;
+    top: 2px;
+    left: 82px;
+    background: url(https://mall.lqxshop.com/theme/default/images/tradetips.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    display: block;
+}
+.IntegralTradeShow {
+    position: absolute;
+    z-index: 9;
+    border: 1px solid #ddd;
+    background-color: #FFF;
+    width: 210px;
+    padding: 5px 10px;
+    top: 25px;
+    right: 50px;
+    display: none;
+}
+.arrowUp {
+    position: absolute;
+    z-index: 10;
+    top: -8px;
+    right: 30px;
+    background: url(https://mall.lqxshop.com/theme/default/images/arrowup.png) no-repeat;
+    width: 11px;
+    height: 8px;
+}
+.tdl {
+    text-decoration: line-through;
+}
+.colorC60 {
+    color: #CC6600;
+}
+/* goodsColorSize */
+.p10 {
+    padding: 10px;
+}
+.goodsColorSize, .share {
+    border: 1px solid #dad7d7;
+    background-color: #fffbf0;
+}
+.mb5 {
+    margin-bottom: 5px;
+}
+.goodsColorSize dt b {
+    color: #c00;
+}
+.goodsColorSize dd a {
+    float: left;
+    overflow: hidden;
+    display: block;
+    margin-right: 12px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 12px 5px 0;
+}
+.goodsColorSize dd.goodsColor a {
+    width: auto;
+    white-space: nowrap;
+}
+.goodsColorSize dd a:hover, .goodsColorSize dd a.current {
+    border: 2px solid #e78e03;
+    padding: 0;
+}
+/* 我要买 */
+.mt20 {
+    margin-top: 20px;
+}
+.in_b {
+    display: inline-block;
+}
+.tableStyle th, .tableStyle td, .btnReduction, .btnAdd, .goodsNum, .tableStyle tbody img {
+    border: 1px solid #dedede;
+}
+.btnReduction, .btnAdd {
+    height: 18px;
+    padding: 0 3px;
+}
+.tc {
+    text-align: center;
+}
+.vm {
+    vertical-align: middle;
+}
+.chooseNum {
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+}
+/* L_gobuyBtn，立即购买，加入购物车 */
+.L_gobuyBtn {
+    padding: 15px 0;
+    height: 36px;
+}
+.L_gobuyBtn span {
+    margin-right: 10px;
+    float: left;
+}
+.storeUp, .storeYetUp {
+    margin-top: 8px;
+    position: relative;
+}
+/* 收藏 */
+.storeYetUp a, .storeYetUp a:hover {
+    color: #666;
+    text-decoration: none;
+}
+.hollowfavicons {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    float: left;
+    background: url(https://mall.lqxshop.com/theme/default/images/hollowfavicons.png) no-repeat;
+    padding-right: 3px;
+}
+/* socialShare，分享到 */
+.socialShare {
+    display: block;
+    width: 54px;
+    height: 54px;
+    position: relative;
+    z-index: 1;
+}
+.socialShare .msb_title {
+    line-height: 60px;
+}
+.socialShare .msb_network_button {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 9px;
+    left: 92px;
+    z-index: 1;
+    cursor: pointer;
+    text-indent: -9999px;
+    display: block;
+    background: no-repeat;
+    border: 6px solid #f5f5f5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.socialShare .msb_network_button.weixin {
+    left: 50px;
+    background: url(https://mall.lqxshop.com/theme/default/css/social.png) no-repeat -73px -87px;
+}
+.socialShare .msb_network_button.sina {
+    left: 100px;
+    background: url(https://mall.lqxshop.com/theme/default/css/social.png) no-repeat -130px -87px;
+}
+.socialShare .msb_network_button.tQQ {
+    left: 250px;
+    background: url(https://mall.lqxshop.com/theme/default/css/social.png) no-repeat -185px -20px;
+}
+.socialShare .msb_network_button.qZone {
+    left: 150px;
+    background: url(https://mall.lqxshop.com/theme/default/css/social.png) no-repeat -73px -20px;
+}
+.socialShare .msb_network_button.douban {
+    left: 200px;
+    background: url(https://mall.lqxshop.com/theme/default/css/social.png) no-repeat -130px -151px;
+}
+/* dLoading，组合购买 */
+.mt15 {
+    margin-top: 15px;
+}
+.p8 {
+    padding: 8px;
+}
+.combination {
+    border: 1px solid #CFCFCF;
+}
+/* 详情开始 */
+.mt25 {
+    margin-top: 25px;
+}
+/* 详情左侧 */
+.goodsInformationLeft {
+    width: 184px;
+}
+/* 购买过该商品的用户还购买过 */
+/* 浏览该商品的用户还浏览了 */
+.mb10 {
+    margin-bottom: 10px;
+}
+.sidebarBox {
+    border: solid 1px #cfcfcf;
+}
+.sidebarBoxTittle {
+    width: 182px;
+    height: 35px;
+    background-image: url(https://mall.lqxshop.com/theme/default/images/sidebar_tittle_bg.png);
+}
+.sidebarBoxTittleLeft {
+    margin: 6px auto auto 10px;
+}
+.borderBot {
+    border-bottom: 1px dotted #c9c9c9;
+}
+.sidebarBoxContent p {
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+.sidebarGoodsBorder {
+    border: #dbdbdb 1px solid;
+}
+/* 两个公共样式不可删除 */
+.pb10 {
+    padding-bottom: 10px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+/* 详情右侧 */
+.goodsInformationRight {
+    width: 780px;
+}
+/* 详情右侧标题 */
+.informationTitle {
+    border-bottom: 1px solid #ccc;
+}
+
+.informationTitle li {
+    width: 103px;
+    height: 30px;
+    line-height: 32px;
+    overflow: hidden;
+    position: relative;
+    top: 1px;
+    left: 10px;
+    cursor: pointer;
+    background: url(https://mall.lqxshop.com/theme/default/images/goodsInformationTab.gif) -104px 0 no-repeat;
+}
+.informationTitle li.current {
+    color: #d70000;
+    background-position: 0 0;
+}
+.color9 {
+    color: #999;
+}
+.informationCon>div{
+    display:none;
+}
+.informationCon>div.active{
+    display:block;
+    /* height:100%; */
+}
+/* 详情右侧内容 */
+
+/* 商品介绍 */
+/* 护理知识 */
+/* 商品评论 */
+.nodata {
+    font-size: 14px;
+    color: #999;
+    padding: 10px 30px;
+    text-align: center;
+}
+/* 商品咨询 */
+.p20 {
+    padding: 20px;
+}
+.evaluation {
+    margin: 10px 30px;
+    background-color: #f8fafa;
+}
+#comment_content, #consulting_content {
+    color: #888;
+    font-size: 12px;
+    height: 60px;
+    resize: none;
+    padding: 5px;
+    overflow: auto;
+}
+.btnQuestion {
+    background: url(https://mall.lqxshop.com/theme/default/images/btnQuestion.gif) no-repeat;
+    border: 0 none;
+    width: 98px;
+    height: 24px;
+    cursor: pointer;
+}
+/* 售后服务 */
+
+

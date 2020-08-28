@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* 公共样式 */
+.mt15 {
+    margin-top: 15px;
+}
+.mr5 {
+    margin-right: 5px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+a {
+    color: #005754;
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica;
+}
+.h36 {
+    height: 36px;
+}
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+.tc {
+    text-align: center;
+}
+.tr {
+    text-align: right;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+.fw {
+    font-family: 微软雅黑,Tahoma,Arial,Helvetica;
+}
+.mr10 {
+    margin-right: 5px;
+}
+
+
+/* 左侧导航 */
+.sidebar {
+    width: 184px;
+}
+.sidebarBox {
+    border: solid 1px #cfcfcf;
+}
+
+
+/* 列表类侧边栏标题 */
+.sidebarBoxTittle {
+    width: 182px;
+    height: 35px;
+    background-image: url(https://mall.lqxshop.com/theme/default/images/sidebar_tittle_bg.png);
+}
+.sidebarBoxTittleLeft {
+    margin: 6px auto auto 10px;
+}
+
+
+/* 列表类内容 */
+.sidebarBoxContent p {
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+p.sortList {
+    margin-right: 0;
+    padding-bottom: 10px;
+}
+a.sortA {
+    color: #626262;
+    padding-right: 8px;
+    border-right: 1px solid;
+    margin-right: 8px;
+    float: left;
+    white-space: nowrap;
+    line-height: 12px;
+    margin-top: 5px;
+}
+
+
+/* 个性化热销榜 */
+.borderBot {
+    border-bottom: 1px dotted #c9c9c9;
+}
+.sidebarGoodsBorder {
+    border: #dbdbdb 1px solid;
+}
+.colorRed, .colorRed a {
+    color: #f9700f;
+}
+
+
+/* 右侧部分 */
+.listMain {
+    width: 790px;
+}
+.screenList {
+    height: 30px;
+    background: url(https://mall.lqxshop.com/theme/default/images/screening_bg.png) repeat-x;
+    border: 1px solid #dcdcdc;
+}
+
+
+/* 商品排序 */
+.screenListInside {
+    height: 30px;
+    background: url(https://mall.lqxshop.com/theme/default/images/screening_bg_center.png) no-repeat center;
+    padding: 0 15px;
+    line-height: 30px;
+}
+.screenListInside span.screenSelect {
+    color: #f9700f;
+}
+.screenListInside span.screenUp_curr {
+    padding-right: 20px;
+    background: url(https://mall.lqxshop.com/theme/default/images/screening_bottom_bg.png) no-repeat center right;
+}
+.screenListInside span {
+    color: #333;
+    padding: 3px 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.screenListInside span.screenUp {
+    padding-right: 20px;
+    background: url(https://mall.lqxshop.com/theme/default/images/screening_top_bg.png) no-repeat center right;
+}
+
+
+/* 商品展示 */
+.listMainContent {
+    margin-right: -24px;
+}
+.listMainContentItem {
+    width: 179px;
+    float: left;
+    display: inline;
+    margin: 0 20px 20px 0;
+    height: 244px;
+    overflow: hidden;
+}
+.listGoodsImg {
+    border: #efefef 1px solid;
+    padding: 1px;
+    display: block;
+}
+.loading {
+    background: url(https://mall.lqxshop.com/theme/default/images/loading.gif) center center no-repeat;
+}
+
+
+/* 分页器 */
+.pageNumber {
+    margin-top: 10px;
+    margin-right: -10px;
+    height: 30px;
+    padding: 2px 0;
+}
+.pagedisable {
+    border: 1px solid #ddd;
+    padding: 3px 5px;
+    margin: 0 2px;
+    color: #ccc;
+    background: #FFF;
+}
+.pageNumber a {
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    display: inline-block;
+}
+a.pageOn {
+    border-color: red;
+    color: red;
+}
+.pageNumber span.goto {
+    padding: 5px 10px;
+    display: inline-block;
+}
+.pageNumber input {
+    vertical-align: top;
+    height: 22px;
+    line-height: 22px;
+    margin: 3px 0 0 -10px;
+    display: inline-block;
+}
+a.pageNext {
+    background: url(https://mall.lqxshop.com/theme/default/images/page_next.png) no-repeat center right;
+    padding-right: 15px;
+}
